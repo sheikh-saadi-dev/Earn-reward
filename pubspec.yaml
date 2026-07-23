@@ -1,0 +1,49 @@
+name: earn_reward_app
+description: "Watch ads, earn points, withdraw to bKash/Nagad."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Firebase (Google + Phone auth)
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  google_sign_in: ^6.2.1
+
+  # Ads
+  google_mobile_ads: ^5.2.0
+
+  # State management
+  provider: ^6.1.2
+
+  # Local storage (points, history, session cache)
+  shared_preferences: ^2.3.2
+
+  # Networking (Google Sheets webhook)
+  http: ^1.2.2
+
+  # UI helpers
+  google_fonts: ^6.2.1
+  fl_chart: ^0.69.0
+  intl: ^0.19.0
+  uuid: ^4.5.1
+  flutter_svg: ^2.0.10+1
+  shimmer: ^3.0.0
+  lottie: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  # assets:
+  #   - assets/images/
+  #   - assets/animations/
